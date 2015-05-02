@@ -1,0 +1,18 @@
+[global_config]
+[keybindings]
+  split_horiz = <Primary><Shift>d
+  split_vert = <Primary>d
+[profiles]
+  [[default]]
+    background_image = None
+  [[Chris]]
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
