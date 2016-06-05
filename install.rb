@@ -2,9 +2,7 @@
 require('fileutils')
 
 CONFIG_FILES = {
-	'terminator'           => File.join(ENV['HOME'], '.config', 'terminator', 'config'),
-  'sublime_keybinds'     => File.join(ENV['HOME'], '.config', 'sublime-text-3', 'Packages', 'User', 'Default (Linux).sublime-keymap'),
-  'sublime_preferences'  => File.join(ENV['HOME'], '.config', 'sublime-text-3', 'Packages', 'User', 'Preferences.sublime-settings')
+	'terminator'           => File.join(ENV['HOME'], '.config', 'terminator', 'config')
 }
 
 COLORS = {red: 31, green: 32, yellow: 33}
